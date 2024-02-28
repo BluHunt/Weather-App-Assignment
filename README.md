@@ -37,5 +37,5 @@ Ensure to replace the API key for OpenWeatherMap (`apiKey = "YOUR_API_KEY"`) in 
 Feel free to explore and contribute to enhance this weather app for Android!
 
 #### Additional Resources:
-- [Weather App Recording](https://drive.google.com/file/d/187JcfIy0Za38p3NEJ-JbVas1nFqs4Ce3/view?usp=sharing): Watch a recording of the weather app in action.
-- [APK File](https://drive.google.com/file/d/10Uc1btdkAacRNjLsCFoJ_OlXYgFflM89/view?usp=drive_link): Download the APK file for installation.
+- [Weather App Recording](https://drive.google.com/file/d/1IoFFz-BTFmtajq4-TGnS3nYZYo4EAb1u/view?usp=drive_link): Watch a recording of the weather app in action.
+- [APK File](https://drive.google.com/file/d/1zXbTrxQd1XuegFiJPpyTtVT3dJIvO3Op/view?usp=drive_link): Download the APK file for installation.
