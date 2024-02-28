@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:id="@+id/card_weather_location"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="@color/description_icon_color"
+    app:strokeWidth="1dp">
+
+        <!-- Content -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/conditionImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/condtion"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/locationNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@id/conditionImage"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_below="@id/locationNameTextView"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6sp"
+            android:layout_toEndOf="@id/conditionImage"
+            android:text="Weather Condition: "
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/temperatureTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/white"
+            android:text="00"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="15dp"
+            android:gravity="end|center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/descriptionTextView"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15sp"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@id/conditionImage"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
